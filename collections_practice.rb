@@ -37,7 +37,7 @@ end
 def find_a(array)
   array.collect do |a|
     if a[0] == "a"
-      return a
+      a
     end
   end
 end
