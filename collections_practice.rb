@@ -33,3 +33,9 @@ def kesha_maker(array)
     a[2] = "$"
   end
 end
+
+def find_a(array)
+  array.collect do |a|
+    a.first == "a"
+  end
+end
