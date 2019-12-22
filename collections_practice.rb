@@ -36,6 +36,6 @@ end
 
 def find_a(array)
   array.collect do |a|
-    a.first == "a"
+    a[0] == "a"
   end
 end
