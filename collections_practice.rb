@@ -48,6 +48,8 @@ def add_s(array)
   array.collect_with_index do |a, index|
     if index != 1
       a + "s"
+    else
+      a
     end
   end
 end
