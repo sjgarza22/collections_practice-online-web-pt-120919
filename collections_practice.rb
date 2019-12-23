@@ -45,11 +45,12 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect_with_index do |a, index|
-    if index != 1
-      a + "s"
-    else
+  i = 0
+  array.collect do |a|
+    if i == 1
       a
+    else
+      a + "s"
     end
   end
 end
