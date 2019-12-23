@@ -48,11 +48,11 @@ def add_s(array)
   i = 0
   array.collect do |a|
     if i == 1
+      i += 1
       a
     else
+      i += 1
       a + "s"
     end
-
-    i += 1
   end
 end
